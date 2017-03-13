@@ -1,0 +1,3 @@
+[submodule "com.bleScent.library"]
+	path = com.bleScent.library
+	url = git@github.com:VaporCommunications/android-library.git

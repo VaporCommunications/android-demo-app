@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="Unable to search device try again!!!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:textColor="#010b0b"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/abcd"
+        android:visibility="gone"
+        />
+    <View
+        android:id="@+id/abcd"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_centerInParent="true">
+
+    </View>
+    <Button
+        android:paddingTop="10dp"
+        android:id="@+id/retry"
+        android:layout_below="@+id/abcd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Retry"
+
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/devicelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
