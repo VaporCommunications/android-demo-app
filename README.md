@@ -4,6 +4,8 @@ Demo app and library
 To install:
 
 git clone git@github.com:VaporCommunications/android-demo-app.git
+
+
 git submodule update --init --recursive
 
 
